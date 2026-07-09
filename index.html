@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>مشروع خطوة الكشفي | قسم الأشبال - الكشافة الإسلامية الجزائرية</title>
+<meta name="description" content="مشروع خطوة: بوت تيليجرام تربوي يرافق أشبال الكشافة الإسلامية الجزائرية في رحلتهم التعليمية والكشفية.">
+<meta name="theme-color" content="#F7B733">
+
+<!-- ============================================================
+   Google Analytics (GA4)
+   ============================================================ -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX');
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Changa:wght@500;600;700;800&family=Tajawal:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<!-- trail -->
+<nav class="trail" id="trail" aria-hidden="true">
+  <div class="trail__line"></div>
+  <div class="trail__fill" id="trailFill"></div>
+  <span class="trail__dot" data-trail></span>
+  <span class="trail__dot" data-trail></span>
+  <span class="trail__dot" data-trail></span>
+  <span class="trail__dot" data-trail></span>
+  <span class="trail__dot" data-trail></span>
+  <span class="trail__dot" data-trail></span>
+  <span class="trail__dot" data-trail></span>
+  <span class="trail__dot" data-trail></span>
+</nav>
+
+<!-- nav bar -->
+<header class="nav">
+  <div class="nav__brand">
+    <div class="img-frame img-frame--circle nav__logo">
+      <img src="images/logos/dept-logo.png" alt="شعار المشروع" onerror="this.remove()">
+      <div class="img-frame__inner" style="display:none"></div>
+    </div>
+    القسم الولائي للأشبال - سطيف
+  </div>
+  <ul class="nav__links" id="navLinks">
+    <li><a href="#hero" class="nav-link">الرئيسية</a></li>
+    <li><a href="#about" class="nav-link">عن المشروع</a></li>
+    <li><a href="#components" class="nav-link">المحاور</a></li>
+    <li><a href="#video" class="nav-link">الفيديو</a></li>
+    <li><a href="#book" class="nav-link">الكتاب</a></li>
+    <li><a href="#contact" class="nav-link">تواصل معنا</a></li>
+    <li>
+      <a href="#" target="_blank" rel="noopener" class="btn btn--primary" id="no-underline" style="padding:10px 22px;">
+        افتح البوت
+      </a>
+    </li>
+  </ul>
+  <button class="nav__toggle" id="navToggle" aria-label="فتح القائمة">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<main>
+
+<!-- =================== HERO =================== -->
+<section class="hero" id="hero">
+  <div class="floaters" aria-hidden="true">
+    <span style="top:18%; left:12%; animation-delay:0s;">⭐</span>
+    <span style="top:30%; left:82%; animation-delay:1.5s;">🧭</span>
+    <span style="top:65%; left:8%; animation-delay:3s;">🌿</span>
+    <span style="top:75%; left:88%; animation-delay:2s;">🔥</span>
+    <span style="top:12%; left:50%; animation-delay:4s;">✨</span>
+    <span style="top:55%; left:46%; animation-delay:2.6s;">🌟</span>
+  </div>
+
+  <div class="hero__badge-wrap reveal">
+    <div class="hero__ring"></div>
+    <div class="hero__badge">
+      <img src="images/logos/khotwa-logo.png" alt="شعار المشروع" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover;" onerror="this.remove()">
+      <div class="img-frame__inner">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M14.5 9.5 12 12l-2.5 2.5M9.5 9.5 12 12l2.5 2.5"/></svg>
+        <!-- <span>شعار المشروع</span> -->
+      </div>
+    </div>
+  </div>
+
+  <span class="eyebrow reveal">حلم القيادة .. يبدأ بخطوة</span>
+  <h1 class="reveal">مشروع <span>خطوة</span></h1>
+  <p class="hero__slogan reveal">رفيقك الرقمي في كل خطوة نحو الاكتشاف والتعلّم بروح كشفية أصيلة.</p>
+
+  <div class="hero__ctas reveal">
+    <a href="#" target="_blank" rel="noopener" class="btn btn--primary">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 4 3 11l6 2.5M21 4l-4 17-7-6.5M21 4 10 14.5"/></svg>
+      زيارة بوت التيليجرام
+    </a>
+    <a href="#about" class="btn btn--ghost">تعرّف على المشروع</a>
+  </div>
+
+  <div class="hero__org reveal">
+    <div class="img-frame img-frame--circle" style="width:30px; height:30px; border-width:1px;">
+      <img src="images/logos/scouts-logo.png" alt="شعار الكشافة الإسلامية الجزائرية" onerror="this.remove()">
+    </div>
+    تحت إشراف المحافظة الولائية للكشافة الإسلامية الجزائرية - سطيف
+  </div>
+
+  <div class="hero__scroll" aria-hidden="true">
+    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 4v16M6 14l6 6 6-6"/></svg>
+  </div>
+</section>
+
+<!-- =================== about =================== -->
+<section class="about" id="about">
+  <div class="pattern-bg"></div>
+  <div class="container">
+    <div class="about__text reveal">
+      <span class="eyebrow">من نحن</span>
+      <h2>ما هو مشروع خطوة؟</h2>
+      <p>مشروع خطوة هو مشروع كشفي تربوي عملي، وُلد ليكون امتدادًا رقميًا لمسيرة الأشبال داخل الكشافة الإسلامية الجزائرية. يجمع بين البرنامج الكشفي الهادف وسهولة الوصول التي توفرها التقنية، ليضع بين يدي كل شبل، قائد، وولي أمر أداةً فعالة وممتعة لمتابعة الأنشطة والتعلم أينما كانوا.</p>
+      <p>الفكرة بسيطة: نفس القيم الكشفية الأصيلة، بقالب جديد يتماشى مع اهتمامات أشبال اليوم.</p>
+      <div class="about__tags">
+        <span>🐺 للأشبال</span>
+        <span>🧑‍🏫 للقادة</span>
+        <span>👨‍👩‍👧 لأولياء الأمور</span>
+      </div>
+    </div>
+    <div class="about__visual reveal">
+      <div class="img-frame img-frame--rounded f1">
+        <img src="images/kids/kid1-pic.jpg" alt="صورة لأشبال في نشاط كشفي" onerror="this.remove()">
+        <div class="img-frame__inner">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="10" r="2"/><path d="m21 15-5-4-8 6"/></svg>
+          <!-- <span>صورة الأشبال 1</span> -->
+        </div>
+      </div>
+      <div class="img-frame img-frame--rounded f2">
+        <img src="images/kids/kid2-pic.jpg" alt="صورة لأشبال في نشاط كشفي" onerror="this.remove()">
+        <div class="img-frame__inner">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="10" r="2"/><path d="m21 15-5-4-8 6"/></svg>
+          <!-- <span>صورة الأشبال 2</span> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =================== components =================== -->
+<section class="components" id="components">
+  <div class="container">
+    <div class="section-head center reveal" style="margin-inline:auto;">
+      <span class="eyebrow">ماذا يقدّم البوت؟</span>
+      <h2>8 محاور رئيسية</h2>
+      <p>كل ما يحتاجه القائد والشبل في مكان واحد، منظّم في عدة محاور رئيسية داخل البوت.</p>
+    </div>
+
+    <div class="components__grid">
+
+      <div class="component-card reveal">
+        <div class="img-frame img-frame--hex component-card__icon">
+          <img src="images/components/comp-1.png" alt="على خطى بوراس" onerror="this.remove()">
+          <div class="img-frame__inner" style="padding:4px;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18M8 2v4M16 2v4"/></svg></div>
+        </div>
+        <h3>على خطى بوراس</h3>
+        <p>يتضمن الجانب الكشفي.</p>
+      </div>
+      
+      <div class="component-card reveal">
+        <div class="img-frame img-frame--hex component-card__icon">
+          <img src="images/components/comp-1.png" alt="على خطى الصديق" onerror="this.remove()">
+          <div class="img-frame__inner" style="padding:4px;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18M8 2v4M16 2v4"/></svg></div>
+        </div>
+        <h3>على خطى الصِدّيق</h3>
+        <p>يتضمن الجانب الروحي والآداب.</p>
+      </div>
+
+      <div class="component-card reveal">
+        <div class="img-frame img-frame--hex component-card__icon">
+          <img src="images/components/comp-2.png" alt="على خطى بن مهيدي" onerror="this.remove()">
+          <div class="img-frame__inner" style="padding:4px;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 5c4-2 8-2 8 0v14c0-2-4-2-8 0V5ZM20 5c-4-2-8-2-8 0v14c0-2 4-2 8 0V5Z"/></svg></div>
+        </div>
+        <h3>على خطى بن مهيدي</h3>
+        <p>يتضمن الجانب الاجتماعي من الوطن والمجتمع والبيئة.</p>
+      </div>
+
+      <div class="component-card reveal">
+        <div class="img-frame img-frame--hex component-card__icon">
+          <img src="images/components/comp-3.png" alt="على خطى الخوارزمي" onerror="this.remove()">
+          <div class="img-frame__inner" style="padding:4px;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M9 18V5l11-2v13M9 18a3 3 0 1 1-3-3 3 3 0 0 1 3 3ZM20 16a3 3 0 1 1-3-3 3 3 0 0 1 3 3Z"/></svg></div>
+        </div>
+        <h3>على خطى الخوارزمي</h3>
+        <p>يتضمن الجانب العقلي من تكنولوجيا ومواهب.</p>
+      </div>
+
+      <div class="component-card reveal">
+        <div class="img-frame img-frame--hex component-card__icon">
+          <img src="images/components/comp-4.png" alt="على خطى صلاح الدين" onerror="this.remove()">
+          <div class="img-frame__inner" style="padding:4px;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="9" r="6"/><path d="m8.5 14-1.8 6.5L12 18l5.3 2.5L15.5 14"/></svg></div>
+        </div>
+        <h3>على خطى صلاح الدين</h3>
+        <p>يتضمن معارف القضية الفلسطينية.</p>
+      </div>
+
+      <div class="component-card reveal">
+        <div class="img-frame img-frame--hex component-card__icon">
+          <img src="images/components/comp-5.png" alt="على خطى مخلوفي" onerror="this.remove()">
+          <div class="img-frame__inner" style="padding:4px;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 12h.01M9 9h.01M15 9h6a3 3 0 0 1 0 9c-1 0-1.5-.5-2-1l-2-2H7l-2 2c-.5.5-1 1-2 1a3 3 0 0 1 0-9h6"/></svg></div>
+        </div>
+        <h3>على خطى مخلوفي</h3>
+        <p>يتضمن الجانب الصحي البدني.</p>
+      </div>
+
+      <div class="component-card reveal">
+        <div class="img-frame img-frame--hex component-card__icon">
+          <img src="images/components/comp-6.png" alt="ألعاب وأناشيد" onerror="this.remove()">
+          <div class="img-frame__inner" style="padding:4px;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 1 1 3.5 2.3c-.9.4-1.5 1-1.5 2.2M12 17h.01"/></svg></div>
+        </div>
+        <h3>ألعاب وأناشيد</h3>
+        <p>ألعاب وتحديات حركية وذهنية وأناشيد متنوعة.</p>
+      </div>
+
+      <div class="component-card reveal">
+        <div class="img-frame img-frame--hex component-card__icon">
+          <img src="images/components/comp-6.png" alt="مكتبة وأرشيف" onerror="this.remove()">
+          <div class="img-frame__inner" style="padding:4px;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 1 1 3.5 2.3c-.9.4-1.5 1-1.5 2.2M12 17h.01"/></svg></div>
+        </div>
+        <h3>مكتبة وأرشيف</h3>
+        <p>وصول سهل إلى مختلف الموارد التعليمية والوثائق الكشفية.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- =================== video =================== -->
+<section class="video" id="video">
+  <div class="container">
+    <div class="section-head center reveal" style="margin-inline:auto;">
+      <span class="eyebrow">شاهد وتعرّف</span>
+      <h2>الفيديو التعريفي</h2>
+      <p>تعرّف على المشروع وطريقة استخدام البوت في 5 دقائق.</p>
+    </div>
+    <div class="video__frame reveal">
+      <div class="video__ratio">
+        <!-- <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="الفيديو التعريفي لمشروع بوصلة الشبل" loading="lazy" allowfullscreen></iframe> -->
+        <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F912054924631427%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+      </div>
+    </div>
+    <p class="video__caption">🎥 فيديو توضيحي لآلية عمل بوت مشروع خطوة</p>
+  </div>
+</section>
+
+<!-- =================== book =================== -->
+<section class="book" id="book">
+  <div class="container">
+    <div class="book__visual reveal">
+      <div class="img-frame img-frame--rounded b1">
+        <img src="images/book/Khotwa-book.png" alt="غلاف كتاب خطوة" onerror="this.remove()">
+        <div class="img-frame__inner">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 19V5a2 2 0 0 1 2-2h11.5a1.5 1.5 0 0 1 1.5 1.5v14"/><path d="M4 19a2 2 0 0 0 2 2h13v-4H6a2 2 0 0 0-2 2Z"/></svg>
+          <!-- <span>غلاف كتاب الشبل</span> -->
+        </div>
+      </div>
+      <!-- <div class="img-frame img-frame--rounded b2">
+        <img src="images/book/book-page.jpg" alt="صفحة من كتاب الشبل" onerror="this.remove()">
+        <div class="img-frame__inner">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 19V5a2 2 0 0 1 2-2h11.5a1.5 1.5 0 0 1 1.5 1.5v14"/><path d="M4 19a2 2 0 0 0 2 2h13v-4H6a2 2 0 0 0-2 2Z"/></svg>
+          <span>صفحة من الكتاب</span>
+        </div>
+      </div> -->
+    </div>
+
+    <div class="reveal">
+      <span class="eyebrow">المرجع التربوي</span>
+      <h2 style="color:var(--cream); margin-bottom:16px;">كتاب خطوة</h2>
+      <p style="color:#DCE6DF; margin-bottom:10px;">المرجع التربوي الكامل لقسم الأشبال، وهو الأساس الذي بُني عليه محتوى البوت.</p>
+      <ul class="book__features">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 12 5 5L20 7"/></svg> خصائص مرحلة الطفولة وأسلوب التعامل معها</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 12 5 5L20 7"/></svg> القيم والمبادئ الكشفية الأساسية</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 12 5 5L20 7"/></svg> المهارات العملية والأنشطة الميدانية</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 12 5 5L20 7"/></svg> إرشادات وتوجيهات</li>
+      </ul>
+      <a href="#" class="btn btn--on-dark">تصفّح الكتاب</a>
+    </div>
+  </div>
+</section>
+
+<!-- =================== how to use =================== -->
+<section class="how" id="how">
+  <div class="container">
+    <div class="section-head center reveal" style="margin-inline:auto;">
+      <span class="eyebrow">خطوة بخطوة</span>
+      <h2>كيف تبدأ مع خطوة؟</h2>
+    </div>
+    <div class="how__steps">
+      <div class="how__step reveal">
+        <div class="how__connector"></div>
+        <div class="how__step-num">١</div>
+        <h3>افتح البوت</h3>
+        <p>اضغط على زر "افتح البوت" على تطبيق تيليجرام .</p>
+      </div>
+      <div class="how__step reveal">
+        <div class="how__connector"></div>
+        <div class="how__step-num">٢</div>
+        <h3>اختر القسم</h3>
+        <p>تصفّح القائمة واختر ما يهمّك: دروس، أناشيد أو غيرها.</p>
+      </div>
+      <div class="how__step reveal">
+        <div class="how__step-num">٣</div>
+        <h3>استكشف واستمتع</h3>
+        <p>تعلّم، تفاعل، وطور من مهاراتك الكشفية.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =================== Telegram CTA =================== -->
+<section class="bot-cta" id="bot">
+  <div class="container">
+    <span class="eyebrow" style="background:rgba(247,183,51,.12); color:var(--yellow-soft);">جاهز للانطلاق؟</span>
+    <h2>جاهز للرحلة مع مشروع خطوة؟</h2>
+    <p>انضم الآن إلى مئات القادة والأشبال عبر مختلف ربوع الوطن.</p>
+    <a href="#" target="_blank" rel="noopener" class="btn btn--primary">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 4 3 11l6 2.5M21 4l-4 17-7-6.5M21 4 10 14.5"/></svg>
+      افتح البوت الآن
+    </a>
+
+    <!-- <div class="chat-mock" aria-hidden="true">
+      <div class="chat-bubble bot">🐺 مرحبًا أيها الشبل! اختر ما يهمّك اليوم:</div>
+      <div class="chat-bubble opts"><span>📖 القصص</span><span>🎖️ الشارات</span><span>🎵 الأناشيد</span></div>
+      <div class="chat-bubble bot">اختيار رائع! هذه مغامرة اليوم... 🌟</div>
+    </div> -->
+  </div>
+</section>
+
+<!-- =================== contact =================== -->
+<section class="contact" id="contact">
+  <div class="container">
+    <!-- <div class="section-head center reveal" style="margin-inline:auto;">
+      <span class="eyebrow">شركاء المشروع</span>
+      <h2>بمبادرة ودعم من</h2>
+    </div>
+
+    <div class="partners reveal">
+      <div class="partner">
+        <div class="img-frame img-frame--circle">
+          <img src="images/logos/scouts-logo.png" alt="شعار الكشافة الإسلامية الجزائرية" onerror="this.remove()">
+          <div class="img-frame__inner">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2 3 6v6c0 5 4 8.5 9 10 5-1.5 9-5 9-10V6l-9-4Z"/></svg>
+            <span>شعار الكشافة الإسلامية الجزائرية</span>
+          </div>
+        </div>
+        <span>الكشافة الإسلامية الجزائرية</span>
+      </div>
+      <div class="partner">
+        <div class="img-frame img-frame--circle">
+          <img src="images/logos/cubes-logo.png" alt="شعار قسم الأشبال" onerror="this.remove()">
+          <div class="img-frame__inner">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="8" r="4"/><path d="M4 21v-1a8 8 0 0 1 16 0v1"/></svg>
+            <span>شعار قسم الأشبال</span>
+          </div>
+        </div>
+        <span>قسم الأشبال</span>
+      </div>
+      <div class="partner">
+        <div class="img-frame img-frame--circle">
+          <img src="images/logos/project-logo.png" alt="شعار مشروع بوصلة الشبل" onerror="this.remove()">
+          <div class="img-frame__inner">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M14.5 9.5 12 12l-2.5 2.5M9.5 9.5 12 12l2.5 2.5"/></svg>
+            <span>شعار بوصلة الشبل</span>
+          </div>
+        </div>
+        <span>بوصلة الشبل</span>
+      </div>
+    </div> -->
+
+    <div class="contact__grid reveal">
+      <div>
+        <h3 style="margin-bottom:18px;">تابعونا</h3>
+        <div class="contact__socials">
+          <a href="https://www.facebook.com/profile.php?id=100079606776029" class="social-btn" aria-label="فيسبوك" title="فيسبوك">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M15 8h2V4h-2a5 5 0 0 0-5 5v3H8v4h2v6h4v-6h3l1-4h-4V9a1 1 0 0 1 1-1Z"/></svg>
+          </a>
+          <a href="https://www.instagram.com/sma_setif/" class="social-btn" aria-label="إنستغرام" title="إنستغرام">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+          </a>
+          <a href="#" class="social-btn" aria-label="قناة تيليجرام" title="قناة تيليجرام">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 4 3 11l6 2.5M21 4l-4 17-7-6.5M21 4 10 14.5"/></svg>
+          </a>
+          <!-- <a href="mailto:contact@example.com" class="social-btn" aria-label="البريد الإلكتروني" title="البريد الإلكتروني">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 6 8 7 8-7"/></svg>
+          </a> -->
+        </div>
+      </div>
+      <div class="contact__info">
+        <h3 style="margin-bottom:18px;">تواصل معنا</h3>
+        <!-- <p><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 6 8 7 8-7"/></svg> contact@example.com</p> -->
+        <p><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 4 3 11l6 2.5M21 4l-4 17-7-6.5M21 4 10 14.5"/></svg> @Telegram</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <p><strong>المحافظة الولائية للكشافة الإسلامية الجزائرية - سطيف</strong> — © 2026 جميع الحقوق محفوظة</p>
+  <!-- <p style="margin-top:6px;">صُنع بـ ❤️ لأجل الأشبال — مشروع بوصلة الشبل</p> -->
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
